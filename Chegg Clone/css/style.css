@@ -1,0 +1,17 @@
+.nav-sep{
+    border-right: 1px solid rgba(123, 121, 121, 0.695);
+}
+
+.banner{
+    background-image: url(../www_chegg_com/www_chegg_com/0530-CTFO-951-CM-GradSummerMoment-hero.jpg);
+    height: 550px;
+    background-size: cover;
+}
+.content{
+    padding: 130px 0px 0px 170px;
+    width: 690px;
+}
+.button{
+    color: white;
+    background-color:#EB7100 ;
+}

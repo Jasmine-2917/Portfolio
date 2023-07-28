@@ -1,3 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
 $font-family-sans-serif:'Poppins', sans-serif;
-@import"../node_modules/bootstrap/scss/bootstrap.scss"
+$theme-colors: (
+  "primary":    #EB7100,
+  "secondary":  purple,
+  "success":    green,
+  "info":       dodgerblue,
+  "warning":    yellow,
+  "danger":     red,
+  "light":      white,
+  "dark":       black,  
+);
+@import"../node_modules/bootstrap/scss/bootstrap.scss";
+
+.nav-link:hover{
+  border-bottom: 5px solid #EB7100 !important ;
+}
