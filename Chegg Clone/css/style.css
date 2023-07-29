@@ -15,3 +15,50 @@
     color: white;
     background-color:#EB7100 ;
 }
+.img-head{
+    position: relative;
+}
+.tag{
+    position: absolute;
+    top: 0;
+    background: #EB7100;
+    border-radius: 7px 0 7px 0;
+    color: white;
+    padding: 8px 20px;
+}
+.card1{
+    height: 550px;
+    position: relative;
+}
+.b{
+    position: absolute;
+    bottom: 1%;  
+}
+#img{
+    height: 252px;
+    width: auto;
+}
+.box1{
+    position: relative;
+}
+.head{
+    position: relative;
+}
+.heading{
+    position: absolute;
+    top:150px;
+    left: 130px;
+}
+.heading1{
+    position: absolute;
+    top:280px;
+    left: 120px;
+}
+.heading2{
+    position: absolute;
+    top:360px;
+    left: 230px;
+}
+.button{
+    width: 200px;
+}
