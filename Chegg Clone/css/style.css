@@ -62,3 +62,17 @@
 .button{
     width: 200px;
 }
+.search{
+    border: 2px solid #F2C71B;
+    padding: 12px;
+    width: 500px;
+    border-radius: 6px;
+
+}
+.search:focus{
+    border: 3px solid #EB7100;
+    outline: none;
+}
+.search-btn{
+    margin-left: -99px;
+}
