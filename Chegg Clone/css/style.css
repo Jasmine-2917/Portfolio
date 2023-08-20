@@ -1,7 +1,15 @@
 .nav-sep{
     border-right: 1px solid rgba(123, 121, 121, 0.695);
 }
+.nav-link{
+    padding: 0 10px;
+    color: black;
+    font-weight: bold;
+}
 
+.nav-item:hover{
+    color: #EB7100;
+}
 .banner{
     background-image: url(../www_chegg_com/www_chegg_com/0530-CTFO-951-CM-GradSummerMoment-hero.jpg);
     height: 550px;
@@ -73,6 +81,44 @@
     border: 3px solid #EB7100;
     outline: none;
 }
+.search-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .search-btn{
     margin-left: -99px;
+}
+@media(max-width:600px){
+    .sm-screen{
+        display:block;
+    }
+    .md-screen{
+        display:none;
+    }
+    .lg-screen{
+    display: none;
+    }
+}
+@media(min-width:600px){
+    .sm-screen{
+        display:none;
+    }
+    .md-screen{
+        display:block;
+    }
+    .lg-screen{
+    display: none;
+    }
+}
+@media(min-width:900px){
+    .sm-screen{
+        display:none;
+    }
+    .md-screen{
+        display:none;
+    }
+    .lg-screen{
+    display: block;
+    }
 }
