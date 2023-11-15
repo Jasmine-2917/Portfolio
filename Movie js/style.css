@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+
+body{
+    background-color: #222222;
+    font-family: 'Poppins', sans-serif;
+}
+.search-container{
+    display: flex;
+    justify-content: center;
+    margin-top:15px ;
+    margin-bottom: 50px;
+}
+input{
+    background-color: #3e3e3e;
+    color: #ffffff;
+    border: 1px solid transparent;
+    border-radius:12px 0 0 12px;
+    padding: 18px;
+    font-size: 17px;
+    width: 600px;
+}
+input:focus{
+    outline: none;
+    border: 1px solid #6146da;
+}
+.btn{
+    background-color: #6146da;
+    color: #ffffff;
+    border: 1px solid #6146da;
+    border-radius:0 12px 12px 0;
+    padding: 18px;
+    font-size: 17px;
+    width: 200px;
+    margin-left:-4px ;
+    cursor: pointer;
+}
+.intro{
+    color: white;
+    width: 600px;
+    margin: 0px auto;
+    text-align: center;
+}
+.intro h1{
+    font-size: 46px;
+    font-weight: 700px;
+    margin-bottom: 0px;
+}
+.intro p{
+    font-size: 20px;
+    color: #8b8b8b;
+}
+.highlight{
+    background: #2D0A54;
+    background: linear-gradient(to right, #542a83 0%, #6E19CF 50%, #831EF7 51%, #9169FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+
+}
+.loader {
+    border: 7px solid #f3f3f3; /* Light grey */
+    border-top: 7px solid #6146da; /* Blue */
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 650ms linear infinite;
+    margin: 0px auto;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  .container {
+    margin: 50px auto;
+    width: 800px;
+    display: flex;
+  }
+  .movie-poster{
+    width: 300px;
+    
+  }
+.movie-container{
+    color: rgb(255, 255, 255);
+    margin: 50px auto;
+    width: 900px;
+    display: flex;
+}
+.desc{
+    color: #a3a1a1;
+}
+#author{
+    font-size: 15px;
+}
+#year{
+    font-size: 25px;
+}
+.movie-img-container{
+    position: relative;
+}
+.box{
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.799);
+    color: black;
+    border: none;
+    border-radius: 10px;
+    margin:8px;
+}
+.rating{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+   
+}
+.genre{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    margin-bottom:12px;
+}
+.error-container h1{
+    text-align: center;
+    font-size: 50px;
+}
+.d-none{
+    display: none;
+}
